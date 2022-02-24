@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Paladar Negro Store</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+
+    .jumbotron {
+      margin-bottom: 0;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Paladar Negro Store</h1>
+      <p class="fw-bold">Indumentaria Exclusiva del Club Atlético Independiente</p>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <ul id="nav" class=" navbar-nav menu " data-animation="center">
+            <li class="nav-item fs-5">
+              <img src="../proyecto_preentrega_01/img/escudo.jpg" class="escudo" alt="">
+            </li>
+            <li class="nav-item fs-5">
+              <a class="nav-link rounded fw-bold px-5 active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item link fs-5">
+              <a class="nav-link  rounded fw-bold px-5 " href="#">Contacto</a>
+            </li>
+          </ul>
+
+          </ul>
+
+
+        </div>
+
+
+      </div>
+      <ul class="nav botones d-flex flex-row-reverse bd-highlight navbar-nav navbar-right">
+        <li><a class="sesion" class="btn boton-nav mx-1" role="button" href="#"><span
+              class="glyphicon glyphicon-user mx-2"></span>Iniciar Sesión</a></li>
+        <li><a id="boton-carrito" class="btn boton-nav" data-bs-toggle="modal" href="#carrito" role="button"><span
+              class="glyphicon glyphicon-shopping-cart mx-2"></span> Carrito</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+
+  <div class="row justify-content-center">
+    <div class="col-10">
+      <div id="contenedor" style="display: flex; flex-wrap: wrap"></div>
+    </div>
+  </div>
+  <div class="modal " id="carrito" data-keyboard="false" data-backdrop="static" tabindex="-1">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content w-75 ">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Resumen de compra</h5>
+          <button type="button" id="cerrar-modal" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="resumen">
+
+          </div>
+        </div>
+        <!--NO FUNCIONAN BOTONES DE CERRAR <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="carrito">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid footer mt-5 ">
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+  </script>
+  <script src="app.js"></script>
+</body>
+
+</html>
