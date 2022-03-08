@@ -1,0 +1,22 @@
+body{
+    background-color: gray;
+}
+
+form{
+    display: inline-block;
+}
+
+input{
+    padding: 4px 15px 4px 5px;
+}
+
+#button {
+    display: inline-block;
+    background-color: #7da06d;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px 15px;
+  }
+
