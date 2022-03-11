@@ -1,0 +1,95 @@
+body {
+    background-color: #000000;
+}
+
+img {
+    height: 180px;
+    width: 190px;
+
+}
+
+.catalogo {
+    height: 350px;
+    width: 350px;
+}
+
+.jumbotron {
+    background-image: url("./img/cancha.jpg");
+    text-shadow: 2px 2px 3px rgb(0, 0, 0), 0 0 4em #ec1c24, 0 0 0.6em #ec1c24;
+    color: white;
+}
+
+.boton-nav {
+    background-color: #ec1c24;
+    color: white;
+}
+
+.boton-nav:hover {
+    background-color: #fdfdfd;
+    color: #ec1c24
+}
+
+.menu {
+    margin-left: 50px;
+}
+
+.nav-item {
+    padding: 3px;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    background-color: #ec1c24 !important;
+    color: #ffffff !important;
+}
+
+.sesion {
+    color: #ec1c24
+}
+
+.botones {
+    margin-right: 15px;
+}
+
+.camiseta {
+    background-color: #000000;
+    margin: 20px;
+
+}
+
+.form-select {
+    width: 200px;
+
+}
+
+.camiseta:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 50px #ec1c24;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+
+.agregar {
+    background-color: #ec1c24;
+}
+
+.footer {
+    background-color: #212529;
+}
+
+.escudo {
+    height: 50px;
+    width: 60px;
+}
+
+.resumen {
+    width: 350px;
+}
+.btn{
+    background-color: #ec1c24;   
+
+}
+#caja{
+    display: none;
+}
